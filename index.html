@@ -4,27 +4,71 @@
 <title>Deepak Digital Services</title>
 
 <style>
+
 body{
-font-family: Arial;
 margin:0;
-background:#f2f2f2;
+font-family:Arial;
+background:#f5f5f5;
 }
 
 header{
-background:black;
+background:linear-gradient(45deg,#000,#0d6efd);
 color:white;
-padding:20px;
+padding:70px;
 text-align:center;
 }
 
-section{
-padding:40px;
-text-align:center;
+header h1{
+font-size:40px;
+margin:0;
 }
 
-button{
+header p{
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
 padding:12px 25px;
-background:#007bff;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-size:16px;
+}
+
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:40px;
+}
+
+.card{
+background:white;
+width:260px;
+margin:20px;
+padding:25px;
+border-radius:10px;
+box-shadow:0 6px 15px rgba(0,0,0,0.2);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.pay{
+text-align:center;
+padding:40px;
+background:#fff;
+}
+
+.pay button{
+padding:12px 25px;
+background:#0d6efd;
 color:white;
 border:none;
 border-radius:5px;
@@ -35,29 +79,81 @@ footer{
 background:black;
 color:white;
 text-align:center;
-padding:10px;
-margin-top:40px;
+padding:15px;
 }
-</style>
 
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-size:18px;
+}
+
+</style>
 </head>
 
 <body>
 
 <header>
+
 <h1>Deepak Digital Services</h1>
-<p>Online Digital Work & Business Services</p>
+<p>Professional Online Digital Work & Business Solutions</p>
+
+<a class="btn" href="https://wa.me/919817045569">Chat on WhatsApp</a>
+
 </header>
 
-<section>
-<h2>Our Services</h2>
-<p>Website Design | Online Work | Digital Services</p>
+<section class="services">
 
-<button>Contact Us</button>
+<div class="card">
+<h3>Website Design</h3>
+<p>Professional websites for business.</p>
+<a class="btn" href="https://wa.me/919817045569">Order Now</a>
+</div>
+
+<div class="card">
+<h3>Online Work</h3>
+<p>All type online digital services.</p>
+<a class="btn" href="https://wa.me/919817045569">Contact</a>
+</div>
+
+<div class="card">
+<h3>Business Promotion</h3>
+<p>Grow your business online.</p>
+<a class="btn" href="https://wa.me/919817045569">Start Now</a>
+</div>
+
 </section>
 
+<section class="pay">
+
+<h2>Online Payment</h2>
+
+<p>UPI ID: <b>98170dj@okicici</b></p>
+
+<button>Pay Now</button>
+
+</section>
+
+<section style="text-align:center;padding:40px;background:#fff">
+
+<h2>Contact</h2>
+
+<p>📞 9817045569</p>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/919817045569">WhatsApp</a>
+
 <footer>
+
 <p>© 2026 Deepak Digital Services</p>
+
 </footer>
 
 </body>
